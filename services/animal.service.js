@@ -1,6 +1,6 @@
 
 export const animalService = {
-    getAnimels
+    getAnimals
 }
 
 const animalInfos = [
@@ -9,6 +9,6 @@ const animalInfos = [
     { type: 'Fin Whale', count: 28 },
 ]
 
-function getAnimels() {
+function getAnimals() {
     return animalInfos
 }
